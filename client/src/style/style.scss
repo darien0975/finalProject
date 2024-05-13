@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "華康龍門石碑";
+  font-weight: 900;
+}
+
+body {
+  background-color: rgb(255, 217, 111);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@import "./nav";
+@import "./home";
+@import "./about";
+@import "./join";
+@import "./larpevent";
+@import "./login";
+@import "./postlarpevent";
+@import "./profile";
+@import "./register";
