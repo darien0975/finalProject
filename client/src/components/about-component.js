@@ -13,7 +13,7 @@ const AboutComponent = () => {
         <div className="container-fluid bg-warning rounded-3 introduce">
           <div className="row align-items-md-stretch introduce-box">
             <div className="col-md-7 fs-3">
-              <div className="h-100 p-4">
+              <div className="h-100 p-4 text-white">
                 <h1>什麼是劇本殺?</h1>
                 <p>
                   “劇本殺”，一詞起源於西方宴會實況角色扮演“謀殺之謎”，是玩家到實景場館，體驗推理性質的項目。劇本殺的規則是，玩家先選擇人物，閱讀人物對應劇本，蒐集線索後找出活動裏隱藏的真兇。
@@ -58,12 +58,12 @@ const AboutComponent = () => {
           </div>
         </div>
         <div className="row align-items-md-stretch feature">
-          <h1 className="text-center">劇本殺特色</h1>
+          <h1 className="text-center text-white">劇本殺特色</h1>
           <div className="row mb-2 p-3 fs-5 feature-box align-items-md-stretch">
             <div className="col-md-7  feature-box-img">
               <img src={friends} alt="" />
             </div>
-            <div className="col-md-5 feature-box-text ">
+            <div className="col-md-5 feature-box-text text-white">
               <h2>增進社交</h2>
               <p>
                 劇本殺是一個極佳的社交活動，讓人們在互動中建立更深層次的人際關係。透過討論和合作，參與者們可以共同解決謎團，培養團隊精神，並建立持久的友誼。
