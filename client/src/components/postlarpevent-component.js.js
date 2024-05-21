@@ -90,7 +90,7 @@ const PostLarpeventComponent = (props) => {
   };
 
   return (
-    <div className="postlarpevent-container">
+    <div className="row justify-content-sm-center container-fluid postlarpevent-container">
       {!currentUser && (
         <div>
           <p>在發布新劇本團之前，您必須先登錄。</p>
@@ -107,100 +107,104 @@ const PostLarpeventComponent = (props) => {
           <p>只有主揪可以發布新劇本團。</p>
         </div>
       )}
-      {message && (
-        <div className="alert alert-danger" role="alert">
-          {message}
-        </div>
-      )}
+
       {currentUser && currentUser.user.role === "主揪" && (
-        <div className="form-group">
-          <label for="exampleforName">劇本名稱(必填)：</label>
-          <input
-            name="name"
-            type="text"
-            className="form-control"
-            id="exampleforName"
-            onChange={handleChangeName}
-          />
-          <br />
-          <label for="exampleforType">類型：</label>
-          <input
-            name="type"
-            type="text"
-            className="form-control"
-            id="exampleforType"
-            onChange={handleChangeType}
-          />
-          <br />
-          <label for="exampleforTime">時間(必填)：</label>
-          <input
-            name="time"
-            type="text"
-            className="form-control"
-            id="exampleforTime"
-            onChange={handleChangeTime}
-          />
-          <br />
-          <label for="exampleforPlace">地點(必填)：</label>
-          <input
-            name="place"
-            type="text"
-            className="form-control"
-            id="exampleforTime"
-            onChange={handleChangePlace}
-          />
-          <br />
-          <label for="exampleforPrice">價格(必填)：</label>
-          <input
-            name="price"
-            type="number"
-            className="form-control"
-            id="exampleforPrice"
-            onChange={handleChangePrice}
-          />
-          <br />
-          <label for="exampleforMale">缺男：</label>
-          <input
-            name="male"
-            type="number"
-            className="form-control"
-            id="exampleforMale"
-            onChange={handleChangeMale}
-          />
-          <br />
-          <label for="exampleforFemale">缺女：</label>
-          <input
-            name="female"
-            type="number"
-            className="form-control"
-            id="exampleforFemale"
-            onChange={handleChangeFemale}
-          />
-          <br />
-          <label for="exampleforContact">聯絡方式(必填)：</label>
-          <input
-            name="contact"
-            type="text"
-            className="form-control"
-            id="exampleforContact"
-            placeholder="請輸入電話或LineID"
-            onChange={handleChangeContact}
-          />
-          <br />
-          <label for="exampleforNote">備註：</label>
-          <textarea
-            name="note"
-            type="text"
-            className="form-control"
-            id="exampleforNote"
-            onChange={handleChangeNote}
-          />
-          <br />
-          <button className="btn btn-primary" onClick={postLarp}>
-            交出表單
-          </button>
-          <br />
-          <br />
+        <div className="col-md-6 bg-white p-5 rounded-3">
+          <div className="form-group">
+            <h1>新增劇本</h1>
+            {message && (
+              <div className="alert alert-danger" role="alert">
+                {message}
+              </div>
+            )}
+            <label for="exampleforName">劇本名稱(必填)：</label>
+            <input
+              name="name"
+              type="text"
+              className="form-control"
+              id="exampleforName"
+              onChange={handleChangeName}
+            />
+            <br />
+            <label for="exampleforType">類型：</label>
+            <input
+              name="type"
+              type="text"
+              className="form-control"
+              id="exampleforType"
+              onChange={handleChangeType}
+            />
+            <br />
+            <label for="exampleforTime">時間(必填)：</label>
+            <input
+              name="time"
+              type="text"
+              className="form-control"
+              id="exampleforTime"
+              onChange={handleChangeTime}
+            />
+            <br />
+            <label for="exampleforPlace">地點(必填)：</label>
+            <input
+              name="place"
+              type="text"
+              className="form-control"
+              id="exampleforTime"
+              onChange={handleChangePlace}
+            />
+            <br />
+            <label for="exampleforPrice">價格(必填)：</label>
+            <input
+              name="price"
+              type="number"
+              className="form-control"
+              id="exampleforPrice"
+              onChange={handleChangePrice}
+            />
+            <br />
+            <label for="exampleforMale">缺男：</label>
+            <input
+              name="male"
+              type="number"
+              className="form-control"
+              id="exampleforMale"
+              onChange={handleChangeMale}
+            />
+            <br />
+            <label for="exampleforFemale">缺女：</label>
+            <input
+              name="female"
+              type="number"
+              className="form-control"
+              id="exampleforFemale"
+              onChange={handleChangeFemale}
+            />
+            <br />
+            <label for="exampleforContact">聯絡方式(必填)：</label>
+            <input
+              name="contact"
+              type="text"
+              className="form-control"
+              id="exampleforContact"
+              placeholder="請輸入電話或LineID"
+              onChange={handleChangeContact}
+            />
+            <br />
+            <label for="exampleforNote">備註：</label>
+            <textarea
+              name="note"
+              type="text"
+              className="form-control"
+              id="exampleforNote"
+              onChange={handleChangeNote}
+            />
+            <br />
+            <button className="btn btn-primary" onClick={postLarp}>
+              交出表單
+            </button>
+            <br />
+            <br />
+          </div>
         </div>
       )}
     </div>

@@ -8,7 +8,9 @@
 }
 
 body {
-  background-color: #fffac5;
+  background-image: url(../pictures/bg4.png);
+  background-position: center;
+  background-size: cover;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -136,4 +138,11 @@ main .about-container .feature .feature-box .feature-box-text h2 {
 
 .register-container {
   padding: 3rem;
+}
+.register-container h1,
+.register-container h5 {
+  text-align: center;
+}
+.register-container button {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

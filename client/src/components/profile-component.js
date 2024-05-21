@@ -6,7 +6,7 @@ const ProfileComponent = ({ currentUser, setCurrentUser }) => {
     <div className="profile-container">
       {!currentUser && <div>在獲取您的個人資料之前，您必須先登錄。</div>}
       {currentUser && (
-        <div>
+        <div className="col-md-6">
           <h2>以下是您的個人檔案：</h2>
 
           <table className="table">
