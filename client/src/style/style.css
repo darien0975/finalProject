@@ -36,26 +36,17 @@ input[type=number]::-webkit-outer-spin-button {
   background-color: rgb(255, 141, 59);
 }
 
-main .home-container .two-box .player {
+.two-box .player {
   background: url(../pictures/table2.png);
   background-size: cover;
   background-position: center;
 }
-main .home-container .two-box .gamemaster {
+.two-box .gamemaster {
   background: url(../pictures/book.png);
   background-size: cover;
   background-position: center;
 }
 
-hr {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-main {
-  padding: 2rem;
-}
 main .about-container .introduce .introduce-box .introduce-box-img img {
   width: 100%;
 }

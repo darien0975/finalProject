@@ -71,7 +71,7 @@ function App() {
                 setCurrentUser={setCurrentUser}
               />
             }
-          ></Route>
+          />
         </Route>
       </Routes>
     </BrowserRouter>

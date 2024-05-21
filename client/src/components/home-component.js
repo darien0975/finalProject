@@ -7,7 +7,7 @@ import event3 from "../pictures/event3.png";
 const HomeComponent = () => {
   return (
     <main>
-      <div className="container py-0 home-container ">
+      <div className=" py-0 home-container ">
         <div
           className=" carousel slide "
           id="carouselExampleControls"
@@ -121,8 +121,9 @@ const HomeComponent = () => {
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-
-        <div className="row align-items-md-stretch two-box mt-4">
+      </div>
+      <div className="container">
+        <div className=" row justify-content-center two-box mt-4">
           <div className="col-md-6 mb-2 ">
             <div className="h-100 p-5  player rounded-3 ">
               <h2>作為一個玩家</h2>
@@ -159,12 +160,12 @@ const HomeComponent = () => {
             </div>
           </div>
         </div>
-        <hr></hr>
-
-        <footer className="pt-3 mt-4 text-muted border-top">
-          &copy; 2024 Darien Design
-        </footer>
       </div>
+      <hr></hr>
+
+      <footer className="pt-3 mt-4 text-muted border-top">
+        &copy; 2024 Darien Design
+      </footer>
     </main>
   );
 };
