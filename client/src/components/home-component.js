@@ -7,15 +7,15 @@ import event3 from "../pictures/event3.png";
 const HomeComponent = () => {
   return (
     <main>
-      <div className="container py-1 home-container">
+      <div className="container py-1 home-container ">
         <div
-          className=" carousel slide"
+          className=" carousel slide "
           id="carouselExampleControls"
           data-bs-ride="carousel"
         >
-          <div class="carousel-inner">
+          <div class="carousel-inner ">
             <div
-              class="carousel-item active rounded-3  mb-4 p-5"
+              class="carousel-item active rounded-3   p-5 "
               style={{
                 backgroundImage: `url(${event})`,
                 backgroundSize: "cover",
@@ -23,7 +23,7 @@ const HomeComponent = () => {
               }}
             >
               <div
-                className="container-fluid py-5"
+                className="container-fluid py-5 "
                 style={{ paddingLeft: "6rem" }}
               >
                 <h1 className="display-4 fw-bold text-black">
@@ -42,7 +42,7 @@ const HomeComponent = () => {
               </div>
             </div>
             <div
-              class="carousel-item rounded-3 mb-4 p-5"
+              class="carousel-item rounded-3  p-5"
               style={{
                 backgroundImage: `url(${event2})`,
                 backgroundSize: "cover",
@@ -69,7 +69,7 @@ const HomeComponent = () => {
               </div>
             </div>
             <div
-              class="carousel-item rounded-3 mb-4 p-5"
+              class="carousel-item rounded-3  p-5"
               style={{
                 backgroundImage: `url(${event3})`,
                 backgroundSize: "cover",
@@ -122,9 +122,9 @@ const HomeComponent = () => {
           </button>
         </div>
 
-        <div className="row align-items-md-stretch two-box">
+        <div className="row align-items-md-stretch two-box mt-4">
           <div className="col-md-6 mb-2 ">
-            <div className="h-100 p-5  player rounded-3">
+            <div className="h-100 p-5  player rounded-3 ">
               <h2>作為一個玩家</h2>
               <p>玩家可以參加他們喜歡的劇本殺團。</p>
               <Link
