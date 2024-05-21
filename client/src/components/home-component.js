@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import event from "../pictures/eventnew.png";
-import event2 from "../pictures/eventnew2.png";
-import event3 from "../pictures/eventnew3.png";
+import event from "../pictures/event.png";
+import event2 from "../pictures/event2.png";
+import event3 from "../pictures/event3.png";
 
 const HomeComponent = () => {
   return (
@@ -33,7 +33,7 @@ const HomeComponent = () => {
                   本系統是一個提供全台劇本殺活動之揪團、參團、預約等交流平台.玩家及主揪們可透過此平台進行交流、互動.
                 </p>
                 <Link
-                  className="btn btn-primary btn-lg"
+                  className="btn btn-warning btn-lg"
                   type="button"
                   to="/about"
                 >
@@ -60,7 +60,7 @@ const HomeComponent = () => {
                   本系統是一個提供全台劇本殺活動之揪團、參團、預約等交流平台.玩家及主揪們可透過此平台進行交流、互動.
                 </p>
                 <Link
-                  className="btn btn-primary btn-lg"
+                  className="btn btn-warning btn-lg"
                   type="button"
                   to="/about"
                 >
@@ -87,7 +87,7 @@ const HomeComponent = () => {
                   本系統是一個提供全台劇本殺活動之揪團、參團、預約等交流平台.玩家及主揪們可透過此平台進行交流、互動.
                 </p>
                 <Link
-                  className="btn btn-primary btn-lg"
+                  className="btn btn-warning btn-lg"
                   type="button"
                   to="/about"
                 >
@@ -124,12 +124,12 @@ const HomeComponent = () => {
 
         <div className="row align-items-md-stretch two-box">
           <div className="col-md-6 mb-2 ">
-            <div className="h-100 p-5 text-white  player rounded-3">
+            <div className="h-100 p-5  player rounded-3">
               <h2>作為一個玩家</h2>
               <p>玩家可以參加他們喜歡的劇本殺團。</p>
               <Link
                 style={{ margin: "0.5rem" }}
-                className="btn btn-primary"
+                className="btn btn-warning"
                 type="button"
                 to="/register"
               >
@@ -137,7 +137,7 @@ const HomeComponent = () => {
               </Link>
               <Link
                 style={{ margin: "0.5rem" }}
-                className="btn btn-primary"
+                className="btn btn-warning"
                 type="button"
                 to="/login"
               >
@@ -146,11 +146,11 @@ const HomeComponent = () => {
             </div>
           </div>
           <div className="col-md-6 mb-2 ">
-            <div className="h-100 p-5 gamemaster text-white rounded-3">
+            <div className="h-100 p-5 gamemaster  rounded-3">
               <h2>作為一個主揪</h2>
               <p>您可以通過註冊成為一名主揪，並開始發布您的開團資訊。</p>
               <Link
-                className="btn btn-primary"
+                className="btn btn-warning"
                 type="button"
                 to="/postlarpevent"
               >

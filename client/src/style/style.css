@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: #fffac5;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -18,9 +18,13 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 nav {
-  background-color: rgb(102, 0, 255);
+  background-color: rgb(255, 141, 59);
 }
 
+main .home-container {
+  padding-left: 0;
+  padding-right: 0;
+}
 main .home-container .two-box .player {
   background: url(../pictures/table2.png);
   background-size: cover;
@@ -54,7 +58,7 @@ main .about-container .feature .feature-box {
   align-items: center;
 }
 main .about-container .feature .feature-box .feature-box-text {
-  border: 5px dashed rgb(77, 57, 0);
+  border: 5px dashed rgb(255, 204, 65);
   display: flex;
   flex-direction: column;
   justify-content: center; /* 垂直居中 */
@@ -110,6 +114,13 @@ main .about-container .feature .feature-box .feature-box-text h2 {
 
 .login-container {
   padding: 3rem;
+}
+.login-container h1,
+.login-container h5 {
+  text-align: center;
+}
+.login-container button {
+  width: 100%;
 }
 
 .postlarpevent-container {
