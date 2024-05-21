@@ -1,3 +1,10 @@
-nav {
-  background-color: rgb(255, 141, 59);
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  nav {
+    background-color: rgb(255, 141, 59);
+  }
 }

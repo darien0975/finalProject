@@ -1,7 +1,5 @@
 main {
   .home-container {
-    padding: 0;
-
     .two-box {
       .player {
         background: url(../pictures/table2.png);
@@ -15,4 +13,10 @@ main {
       }
     }
   }
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }

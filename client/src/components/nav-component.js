@@ -10,7 +10,7 @@ const NavComponent = ({ currentUser, setCurrentUser }) => {
   };
 
   return (
-    <div>
+    <div className="header">
       <nav className="navbar navbar-expand-lg navbar-light bg-warning">
         <div className="container-fluid">
           <button

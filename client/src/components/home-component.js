@@ -7,7 +7,7 @@ import event3 from "../pictures/event3.png";
 const HomeComponent = () => {
   return (
     <main>
-      <div className="container py-1 home-container ">
+      <div className="container py-0 home-container ">
         <div
           className=" carousel slide "
           id="carouselExampleControls"
@@ -159,6 +159,7 @@ const HomeComponent = () => {
             </div>
           </div>
         </div>
+        <hr></hr>
 
         <footer className="pt-3 mt-4 text-muted border-top">
           &copy; 2024 Darien Design

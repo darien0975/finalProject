@@ -7,6 +7,12 @@
   font-weight: 900;
 }
 
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-image: url(../pictures/bg4.png);
   background-position: center;
@@ -19,13 +25,17 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0;
 }
 
-nav {
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.header nav {
   background-color: rgb(255, 141, 59);
 }
 
-main .home-container {
-  padding: 0;
-}
 main .home-container .two-box .player {
   background: url(../pictures/table2.png);
   background-size: cover;
@@ -35,6 +45,12 @@ main .home-container .two-box .gamemaster {
   background: url(../pictures/book.png);
   background-size: cover;
   background-position: center;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 main {

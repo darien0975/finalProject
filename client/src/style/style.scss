@@ -6,6 +6,12 @@
   font-weight: 900;
 }
 
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-image: url(../pictures/bg4.png);
   background-position: center;
