@@ -9,7 +9,10 @@
 
 body,
 html {
+  padding: 0;
+  margin: 0;
   width: 100%;
+  height: 100%;
   overflow-x: hidden;
 }
 
@@ -36,50 +39,75 @@ input[type=number]::-webkit-outer-spin-button {
   background-color: rgb(255, 141, 59);
 }
 
-.two-box .player {
+.home-main h1,
+.home-main h2,
+.home-main p {
+  color: rgb(90, 44, 0);
+}
+.home-main .two-box .player {
   background: url(../pictures/table2.png);
   background-size: cover;
   background-position: center;
 }
-.two-box .gamemaster {
+.home-main .two-box .gamemaster {
   background: url(../pictures/book.png);
   background-size: cover;
   background-position: center;
 }
 
-main .about-container .introduce .introduce-box .introduce-box-img img {
+.btn:hover {
+  background: white;
+}
+
+.about-main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-main .introduce .introduce-box .introduce-box-img img {
   width: 100%;
 }
-main .about-container .video .video-box iframe {
+.about-main .video .video-box iframe {
   width: 100%;
   height: 40vw;
 }
-main .about-container .sop {
+.about-main .sop {
   background: url(../pictures/night2.png);
   background-size: cover;
   background-position: center;
 }
-main .about-container .feature img {
+.about-main .feature {
+  background: url(../pictures/bg9.png);
+  background-size: cover;
+  background-position: center;
+}
+.about-main .feature img {
   width: 100%;
 }
-main .about-container .feature .feature-box {
-  align-items: center;
+.about-main .feature h1,
+.about-main .feature h2,
+.about-main .feature p {
+  color: white;
 }
-main .about-container .feature .feature-box .feature-box-text {
-  border: 5px dashed rgb(255, 204, 65);
+.about-main .feature .feature-box {
+  align-items: center;
+  border: 5px dashed rgb(107, 77, 0);
+}
+.about-main .feature .feature-box .feature-box-text {
   display: flex;
   flex-direction: column;
   justify-content: center; /* 垂直居中 */
   align-items: center; /* 水平居中 */
   padding: 20px;
 }
-main .about-container .feature .feature-box .feature-box-text h2 {
+.about-main .feature .feature-box .feature-box-text h2 {
   text-align: center;
 }
 
 @media screen and (max-width: 767px) {
-  .about-container .feature .feature-box:nth-of-type(2),
-  .about-container .feature .feature-box:nth-of-type(4) {
+  .about-main .feature .feature-box:nth-of-type(2),
+  .about-main .feature .feature-box:nth-of-type(4) {
     flex-direction: column-reverse;
   }
 }
