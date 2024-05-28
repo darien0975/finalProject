@@ -6,8 +6,8 @@ import event3 from "../pictures/event3.png";
 
 const HomeComponent = () => {
   return (
-    <main className="home-main">
-      <div className=" mt-5 home-container ">
+    <main className="home-main ">
+      <div className=" home-container ">
         <div
           className=" carousel slide "
           id="carouselExampleControls"
@@ -22,10 +22,7 @@ const HomeComponent = () => {
                 backgroundPosition: "center",
               }}
             >
-              <div
-                className="container-fluid py-5 "
-                style={{ paddingLeft: "8rem" }}
-              >
+              <div className="container-fluid py-5 home-container-text">
                 <h1 className="display-4 fw-bold ">劇本殺預約排程系統</h1>
                 <p className="col-md-8 fs-2 ">
                   本系統是一個提供全台劇本殺活動之揪團、參團、預約等交流平台.玩家及主揪們可透過此平台進行交流、互動.
@@ -47,10 +44,7 @@ const HomeComponent = () => {
                 backgroundPosition: "center",
               }}
             >
-              <div
-                className="container-fluid py-5"
-                style={{ paddingLeft: "8rem" }}
-              >
+              <div className="container-fluid py-5 home-container-text">
                 <h1 className="display-4 fw-bold ">劇本殺預約排程系統</h1>
                 <p className="col-md-8 fs-2 ">
                   本系統是一個提供全台劇本殺活動之揪團、參團、預約等交流平台.玩家及主揪們可透過此平台進行交流、互動.
@@ -72,10 +66,7 @@ const HomeComponent = () => {
                 backgroundPosition: "center",
               }}
             >
-              <div
-                className="container-fluid py-5"
-                style={{ paddingLeft: "8rem" }}
-              >
+              <div className="container-fluid py-5 home-container-text">
                 <h1 className="display-4 fw-bold ">劇本殺預約排程系統</h1>
                 <p className="col-md-8 fs-2 ">
                   本系統是一個提供全台劇本殺活動之揪團、參團、預約等交流平台.玩家及主揪們可透過此平台進行交流、互動.
@@ -117,8 +108,8 @@ const HomeComponent = () => {
         </div>
       </div>
       <div className="container-fluid">
-        <div className=" row justify-content-evenly two-box mt-4">
-          <div className="col-md-5 mb-2 mx-3 ">
+        <div className=" row justify-content-md-evenly  two-box mt-4">
+          <div className="col-md-5 mb-2  ">
             <div className="h-100 p-5  player rounded-3 shadow-lg">
               <h2>作為一個玩家</h2>
               <p>玩家可以參加他們喜歡的劇本殺團。</p>
@@ -140,7 +131,7 @@ const HomeComponent = () => {
               </Link>
             </div>
           </div>
-          <div className="col-md-5 mb-2 mx-3">
+          <div className="col-md-5 mb-2 ">
             <div className="h-100 p-5 gamemaster  rounded-3 shadow-lg">
               <h2>作為一個主揪</h2>
               <p>您可以通過註冊成為一名主揪，並開始發布您的開團資訊。</p>
@@ -156,7 +147,7 @@ const HomeComponent = () => {
         </div>
       </div>
 
-      <footer className="p-3 text-muted bg-warning">
+      <footer className="p-3 mt-3 text-muted bg-warning">
         &copy; 2024 Darien Design
       </footer>
     </main>

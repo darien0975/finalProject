@@ -89,7 +89,7 @@ const RegisterComponent = () => {
   };
 
   return (
-    <div className="row justify-content-sm-center container-fluid register-container">
+    <div className="row justify-content-md-center container-fluid register-container mt-3">
       <div className="col-md-6 bg-white p-5 rounded-3">
         <h1>註冊會員</h1>
         <div>

@@ -31,7 +31,7 @@ const LoginComponent = ({ currentUser, setCurrentUser }) => {
   };
 
   return (
-    <div className="row justify-content-sm-center container-fluid login-container ">
+    <div className="row justify-content-md-center container-fluid login-container mt-2">
       <div className="col-md-6 bg-white p-5 rounded-3  login-input">
         <div>
           <h1>歡迎來到劇本殺世界</h1>

@@ -8,7 +8,7 @@ import larp from "../pictures/larps1.png";
 
 const AboutComponent = () => {
   return (
-    <main className="about-main mt-4 pt-5">
+    <main className="about-main mt-4 pt-3">
       <div className="container bg-warning rounded-3 introduce">
         <div className="row align-items-md-stretch introduce-box">
           <div className="col-md-7 fs-3">
@@ -67,9 +67,9 @@ const AboutComponent = () => {
         </div>
       </div>
 
-      <div className="feature mb-0">
+      <div className="feature mb-0 py-4">
         <h1 className="text-center">劇本殺特色</h1>
-        <div className="row mb-2 mx-5 p-3 fs-5 feature-box align-items-md-stretch justify-content-md-between">
+        <div className="row my-3 mx-5 p-3 fs-5 feature-box align-items-md-stretch justify-content-md-between">
           <div className="col-md-6  feature-box-img">
             <img src={friends} alt="" />
           </div>
@@ -80,7 +80,7 @@ const AboutComponent = () => {
             </p>
           </div>
         </div>
-        <div className="row mb-2 mx-5 p-3 fs-5 feature-box align-items-md-stretch justify-content-md-between">
+        <div className="row my-3 mx-5 p-3 fs-5 feature-box align-items-md-stretch justify-content-md-between">
           <div className="col-md-5 feature-box-text">
             <h2>身歷其境</h2>
             <p>
@@ -91,7 +91,7 @@ const AboutComponent = () => {
             <img src={london} alt="" />
           </div>
         </div>
-        <div className="row mb-2 mx-5 p-3 fs-5 feature-box align-items-md-stretch justify-content-md-between">
+        <div className="row my-3 mx-5 p-3 fs-5 feature-box align-items-md-stretch justify-content-md-between">
           <div className="col-md-6 feature-box-img">
             <img src={room} alt="" />
           </div>
@@ -102,7 +102,7 @@ const AboutComponent = () => {
             </p>
           </div>
         </div>
-        <div className="row mb-2 mx-5 p-3 fs-5 feature-box align-items-md-stretch justify-content-md-between">
+        <div className="row my-3 mx-5 p-3 fs-5 feature-box align-items-md-stretch justify-content-md-between">
           <div className="col-md-5 feature-box-text">
             <h2>推理環節</h2>
             <p>
@@ -113,7 +113,7 @@ const AboutComponent = () => {
             <img src={book} alt="" />
           </div>
         </div>
-        <div className="row mb-2 mx-5 p-3 fs-5 feature-box align-items-md-stretch justify-content-md-between">
+        <div className="row my-3 mx-5 p-3 fs-5 feature-box align-items-md-stretch justify-content-md-between">
           <div className="col-md-6 feature-box-img">
             <img src={clothing} alt="" />
           </div>

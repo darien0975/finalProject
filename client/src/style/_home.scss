@@ -5,6 +5,9 @@
     color: rgb(90, 44, 0);
   }
   .home-container {
+    .home-container-text {
+      padding-left: 8rem;
+    }
   }
   .two-box {
     .player {
@@ -22,4 +25,15 @@
 
 .btn:hover {
   background: white;
+  color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .home-main {
+    .home-container {
+      .home-container-text {
+        padding-left: 1rem;
+      }
+    }
+  }
 }
