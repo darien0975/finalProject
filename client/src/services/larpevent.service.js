@@ -1,6 +1,6 @@
 import axios from "axios";
 // const API_URL = "http://localhost:8080/api/larpevent";
-const API_URL = "https://server-m178.onrender.com/api/larpevent";
+const API_URL = "https://server-p01n.onrender.com/api/larpevent";
 
 class LarpEventService {
   post(name, type, time, place, price, male, female, contact, note) {
