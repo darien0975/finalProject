@@ -47,7 +47,7 @@ const HomeComponent = () => {
               <div className="container-fluid py-5 home-container-text">
                 <h1 className="display-4 fw-bold ">劇本殺預約排程系統</h1>
                 <p className="col-md-8 fs-2 ">
-                  本系統是一個提供全台劇本殺活動之揪團、參團、預約等交流平台.玩家及主揪們可透過此平台進行交流、互動.
+                  本系統是一個提供全台劇本殺活動的揪團、參團、預約等交流平台.玩家及主揪們可透過此平台進行交流、互動.
                 </p>
                 <Link
                   className="btn btn-warning btn-lg"
@@ -69,7 +69,7 @@ const HomeComponent = () => {
               <div className="container-fluid py-5 home-container-text">
                 <h1 className="display-4 fw-bold ">劇本殺預約排程系統</h1>
                 <p className="col-md-8 fs-2 ">
-                  本系統是一個提供全台劇本殺活動之揪團、參團、預約等交流平台.玩家及主揪們可透過此平台進行交流、互動.
+                  本系統是一個提供全台劇本殺活動的揪團、參團、預約等交流平台.玩家及主揪們可透過此平台進行交流、互動.
                 </p>
                 <Link
                   className="btn btn-warning btn-lg"
