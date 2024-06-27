@@ -36,7 +36,9 @@ const LoginComponent = ({ currentUser, setCurrentUser }) => {
         <div>
           <h1>歡迎來到劇本殺世界</h1>
           <h5>一起來體驗您的第二人生</h5>
-          {message && <div className="alert alert-danger">{message}</div>}
+          {message && (
+            <div className="alert alert-danger">帳號不存在或密碼錯誤</div>
+          )}
 
           <div className="form-group">
             <label htmlFor="username">帳號：</label>
