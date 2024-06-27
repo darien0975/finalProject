@@ -27,7 +27,7 @@ const NavComponent = ({ currentUser, setCurrentUser }) => {
         link.removeEventListener("click", handleNavClick)
       );
     };
-  }, []);
+  }, [currentUser]);
 
   return (
     <div className="header">
