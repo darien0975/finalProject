@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Layout from "./components/Layout";
 import HomeComponent from "./components/home-component";
@@ -17,7 +17,7 @@ function App() {
   let [currentUser, setCurrentUser] = useState(AuthService.getCurrentUser());
 
   return (
-    <BrowserRouter basename="/finalProject">
+    <Router basename="/finalProject">
       <Routes>
         <Route
           path="/"
@@ -76,7 +76,7 @@ function App() {
           <Route path="*" element={<NotFoundComponent />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
